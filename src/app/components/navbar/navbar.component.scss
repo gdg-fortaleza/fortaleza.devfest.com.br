@@ -30,3 +30,25 @@ a {
     height: 100%;
 }
 
+.button{
+    border-radius: 4.8px;
+    border: 2px solid #000;
+    background: var(--White, #FFF);
+    color: #000;
+    font-family: Product Sans, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    padding: 8px 12px !important;
+    transition: background .2s ease ;
+}
+
+.button:hover {
+    background-color:  #FDE293;
+}
+
+a {
+    text-decoration: none;
+}

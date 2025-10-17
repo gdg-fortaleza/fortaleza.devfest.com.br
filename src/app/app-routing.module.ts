@@ -6,11 +6,16 @@ import { ProgramacaoComponent } from './pages/programacao/programacao.component'
 const routes: Routes = [
   {
     path: "",
-    component: LayoutComponent
+    component: LayoutComponent,
   },
   {
     path: "programacao",
-    component: ProgramacaoComponent
+    component: ProgramacaoComponent,
+  },
+  {
+    path: "**",
+    redirectTo: "",
+    pathMatch: "full",
   },
 ];
 
