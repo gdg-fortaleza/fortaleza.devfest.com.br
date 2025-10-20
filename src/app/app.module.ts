@@ -18,7 +18,6 @@ import { ParceriasComponent } from "./pages/parcerias/parcerias.component";
 import { PatrocinioComponent } from "./pages/patrocinio/patrocinio.component";
 import { ProgramacaoComponent } from "./pages/programacao/programacao.component";
 import { VoluntariosComponent } from "./pages/voluntarios/voluntarios.component";
-import { MaterialModule } from "./shared/material/material.module";
 
 @NgModule({
   declarations: [
@@ -42,7 +41,6 @@ import { MaterialModule } from "./shared/material/material.module";
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    MaterialModule,
     CarouselModule,
     ButtonModule,
   ],
