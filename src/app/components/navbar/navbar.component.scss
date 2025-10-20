@@ -49,6 +49,15 @@ a {
     background-color:  #FDE293;
 }
 
+.cta-ingressos:focus, .cta-ingressos:focus-visible {
+    outline: 3px solid #0F172A;
+    outline-offset: 2px;
+}
+
+.nav-link:focus, .nav-link:focus-visible, .nav-link:hover {
+    text-decoration: underline;
+}
+
 a {
     text-decoration: none;
 }
