@@ -38,7 +38,7 @@ button.primary_button{
 }
 
 .tam_parceria{
-    width: 55%
+    width: 80%
 }
 
 .tam_company{
@@ -76,7 +76,7 @@ button.primary_button{
 
 @media only screen and (min-width: 501px) and (max-width: 1299px) {
     .tam_parceria{
-        width: 40%;
+        width: 70%;
     }
 
     .tam_company{
@@ -99,7 +99,8 @@ button.primary_button{
         margin-top: 100px;
     }
     .tam_parceria{
-        width: 35%
+        height: 300px;
+        width: auto;
     }
 
     .tam_partner{
